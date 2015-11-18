@@ -1,0 +1,194 @@
+/*
+Theme Name: Konsystel Template
+Author:	Kornelia Kobiela
+Description: Templatka dedykowana dla firmy Konsystel
+Version: 1.0
+To jest podstawowy plik arkuszu styli dla Wordpressa.
+*/
+
+div.header-img-wrapper {
+  background-color: #49155D;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 200px;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 50px;
+  /*background-color: #f5f5f5;*/
+}
+
+/* My helper styles
+-------------------------------------------------- */
+.no-corners {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.navbar-clear {
+  background: #fff; 
+  border: 0;
+  margin-bottom: 0;
+}
+
+.mar-top-10 {
+  margin-top: 10px;
+}
+
+.mar-top-20 {
+  margin-top: 20px;
+}
+
+.mar-top-30 {
+  margin-top: 30px;
+}
+
+.mar-bot-10 {
+  margin-bottom: 10px;
+}
+
+.mar-bot-20 {
+  margin-bottom: 20px;
+}
+
+.mar-bot-30 {
+  margin-bottom: 30px;
+}
+
+/* Custom bootstrap button
+-------------------------------------------------- */
+.btn-custom { 
+  color: #ffffff; 
+  background-color: #ed1e40; 
+  border-color: #ed1e40; 
+} 
+ 
+.btn-custom:hover, 
+.btn-custom:focus, 
+.btn-custom:active, 
+.btn-custom.active, 
+.open .dropdown-toggle.btn-custom { 
+  color: #ffffff; 
+  background-color: #b3123a; 
+  border-color: #e50f45; 
+} 
+ 
+.btn-custom:active, 
+.btn-custom.active, 
+.open .dropdown-toggle.btn-custom { 
+  background-image: none; 
+} 
+ 
+.btn-custom.disabled, 
+.btn-custom[disabled], 
+fieldset[disabled] .btn-custom, 
+.btn-custom.disabled:hover, 
+.btn-custom[disabled]:hover, 
+fieldset[disabled] .btn-custom:hover, 
+.btn-custom.disabled:focus, 
+.btn-custom[disabled]:focus, 
+fieldset[disabled] .btn-custom:focus, 
+.btn-custom.disabled:active, 
+.btn-custom[disabled]:active, 
+fieldset[disabled] .btn-custom:active, 
+.btn-custom.disabled.active, 
+.btn-custom[disabled].active, 
+fieldset[disabled] .btn-custom.active { 
+  background-color: #e50f45; 
+  border-color: #e50f45; 
+} 
+ 
+.btn-custom .badge { 
+  color: #e50f45; 
+  background-color: #ffffff; 
+}
+
+/* Custom bootstrap panel
+-------------------------------------------------- */
+
+.panel-custom {
+  border-color: #27b5fa !important;
+}
+
+.panel-custom > .panel-heading {
+  background-color: #27b5fa; 
+  border-color: #27b5fa;
+  color: #ffffff !important;
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  border-radius: 0px !important;
+}
+
+
+/* 
+Make the Facebook Like box responsive (fluid width)
+-------------------------------------------------- */
+
+#fb-root {
+    display: none;
+}
+
+/* To fill the container and nothing else */
+
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+    width: 100% !important;
+}
+
+/* Menu */
+/*-------------------------------------------------- */
+ ul{
+	list-style-type:none;
+  display:block; 
+  margin-left: 20px;
+  float:left
+  
+}
+ul li{
+  display: inline;
+  background-color: rgb(221, 221, 221);
+  margin: 0 10px;
+  border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+  border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+
+/* Media queries
+-------------------------------------------------- */
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+
+}
